@@ -1,0 +1,141 @@
+.wrapper {
+  height: 100%;
+
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  height: 44px;
+  background: #323232;
+}
+
+nav ul {
+  display: flex;
+  height: 44px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #B8B8B8;
+}
+
+.MlcNav {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: left;
+    font-family: Roboto
+}
+
+h1 {
+  text-align: left;
+  color: white;
+  font-family: Roboto;
+
+}
+
+h2 {
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-family: Roboto;
+}
+
+hr {
+  border: 4px solid black;
+  border-radius: 5px;
+}
+
+a {
+  color: #ba135d;
+}
+.imgmeme {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Schedule Specific CSS */
+.intro {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 20px;
+  font-family: Roboto Condensed
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background: #0099ff;
+  background-image: -webkit-linear-gradient(top, #0099ff, #78cbff);
+  background-image: -moz-linear-gradient(top, #0099ff, #78cbff);
+  background-image: -ms-linear-gradient(top, #0099ff, #78cbff);
+  background-image: -o-linear-gradient(top, #0099ff, #78cbff);
+  background-image: linear-gradient(to bottom, #0099ff, #78cbff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  align-content: center;
+}
+
+.btn:hover {
+  background: #82cfff;
+  background-image: -webkit-linear-gradient(top, #82cfff, #b2e0ff);
+  background-image: -moz-linear-gradient(top, #82cfff, #b2e0ff);
+  background-image: -ms-linear-gradient(top, #82cfff, #b2e0ff);
+  background-image: -o-linear-gradient(top, #82cfff, #b2e0ff);
+  background-image: linear-gradient(to bottom, #82cfff, #b2e0ff);
+  text-decoration: none;
+}
+
+.month {
+  font-size: 25px;
+  text-decoration: underline;
+  color: #f21170;
+  font-family: Roboto;
+font-size: 20px;
+}
+
+.event {
+  font-family: Roboto Condensed;
+  font-size: 20px;
+}
+
+/* webdev Specific CSS */
+
+.web-p1 {
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 20px;
+}
+
+.web-list {
+  font-family: Roboto Condensed;
+  font-size: 20px;
+}
