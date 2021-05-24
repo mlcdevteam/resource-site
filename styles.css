@@ -137,3 +137,10 @@ a {
   font-family: Roboto Condensed;
   font-size: 20px;
 }
+
+/* Notes Specific CSS  */
+
+.notes {
+  font-family: ROboto Condensed;
+  font-size: 15 px;
+}
